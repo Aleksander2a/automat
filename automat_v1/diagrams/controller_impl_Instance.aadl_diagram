@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="2ba9fa04-b59a-49ae-84c1-7e109b4a233b" manual="true">
+    <element uuid="2972b4b9-de4c-4138-99a9-a44b3d7e70af" manual="true">
+      <element uuid="68e802ce-f5ca-46c8-aa33-8787aa19c607" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>numer_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="b06963bb-773f-4d90-8a6e-d51baa5096e2" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>numer_out</seg>
+        </bo>
+        <position x="224.07810974121094" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>thread_przyciski</seg>
+      </bo>
+      <position x="365.5846710205078" y="54.66666666666667"/>
+      <size width="299.82159423828125" height="60.0"/>
+    </element>
+    <element uuid="0046c31a-42a0-4fcd-a756-f4dced89a889" manual="true">
+      <element uuid="4bd83733-b185-4546-9749-29832dae77b2" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>wartosc_reszty_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="7642f408-a072-46a3-a31f-c8cee868710e" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>wydaj_monety_out</seg>
+        </bo>
+        <position x="254.48828887939453" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>thread_wydaj</seg>
+      </bo>
+      <position x="1094.8959197998047" y="38.0"/>
+      <size width="377.6666793823242" height="60.0"/>
+    </element>
+    <element uuid="ebd4f593-96d9-4d10-88b7-b3073df5aa70" manual="true">
+      <element uuid="96a84f1d-531c-469d-8ecf-0694779e2d3e" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>wyswietl_in</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="1c9a65dd-9806-4ebd-b7fb-32f4a84c50fd" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>wyswietl_out</seg>
+        </bo>
+        <position x="234.44271087646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>thread_wyswietl</seg>
+      </bo>
+      <position x="1122.7149353027344" y="118.0"/>
+      <size width="322.02864837646484" height="60.0"/>
+    </element>
+    <element uuid="f103dfb0-5115-407f-9f52-b5397365d349" manual="true">
+      <element uuid="e7b0d269-a30b-4eed-9b21-9bd6adff9b3c" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>numerek_in</seg>
+        </bo>
+        <position y="26.666666666666668"/>
+      </element>
+      <element uuid="45feb1ab-5a47-4275-8ac1-b3dbae387aaf" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>panel_out</seg>
+        </bo>
+        <position x="318.9153823852539" y="60.0"/>
+      </element>
+      <element uuid="deb2e2bc-5d62-4351-a480-fd8aa1035b41" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ruch_spirala_out</seg>
+        </bo>
+        <position x="278.90885162353516" y="110.0"/>
+      </element>
+      <element uuid="b769546e-2074-474c-af76-e09c9fe69250" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>wartosc_monet_in</seg>
+        </bo>
+        <position y="93.33333333333334"/>
+      </element>
+      <element uuid="3c293ec2-7c0e-4621-ba2f-15dd26d44154" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>wartosc_reszty_out</seg>
+        </bo>
+        <position x="262.62630462646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>thread_zaplac</seg>
+      </bo>
+      <position x="685.4062957763672" y="38.0"/>
+      <size width="389.4895935058594" height="160.0"/>
+    </element>
+    <element uuid="cc2d86ce-c100-4aca-9d1a-95cfa77b9c2c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>pokarz_conn : controller_impl_Instance.thread_wyswietl.wyswietl_out -> controller_impl_Instance.wyswietl_out</seg>
+      </bo>
+    </element>
+    <element uuid="5a78c082-4e0c-4352-a615-596b506556aa" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>przycisk_in_conn : controller_impl_Instance.numer_in -> controller_impl_Instance.thread_przyciski.numer_in</seg>
+      </bo>
+    </element>
+    <element uuid="efbd8042-a695-421f-9970-ada9a9dc9bf8" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>wartosc_monet_conn_1 : controller_impl_Instance.wartosc_monet_in -> controller_impl_Instance.thread_zaplac.wartosc_monet_in</seg>
+      </bo>
+    </element>
+    <element uuid="8572ef46-7af2-4e26-b066-165d8c8e84b2" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>wartosc_monet_conn_2 : controller_impl_Instance.thread_zaplac.wartosc_reszty_out -> controller_impl_Instance.thread_wydaj.wartosc_reszty_in</seg>
+      </bo>
+    </element>
+    <element uuid="117e715b-e720-4db4-a77b-63b8215cb68e" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>wydaj_reszta_conn : controller_impl_Instance.thread_wydaj.wydaj_monety_out -> controller_impl_Instance.wydaj_monety_out</seg>
+      </bo>
+    </element>
+    <element uuid="565f6738-7d8f-4ae1-b004-f3221383663d" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>zaplac_conn_n_out : controller_impl_Instance.thread_przyciski.numer_out -> controller_impl_Instance.thread_zaplac.numerek_in</seg>
+      </bo>
+    </element>
+    <element uuid="a077c78a-cff7-4dce-9501-fd66e739deb5" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>zaplac_conn_panel : controller_impl_Instance.thread_zaplac.panel_out -> controller_impl_Instance.thread_wyswietl.wyswietl_in</seg>
+      </bo>
+      <bendpoints>
+        <point x="1084.8958740234375" y="130.0"/>
+        <point x="1084.8958740234375" y="160.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="99937543-418f-4be7-9918-e2b1e5a4be07" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>zaplac_conn_spirala : controller_impl_Instance.thread_zaplac.ruch_spirala_out -> controller_impl_Instance.ruch_spirala_out</seg>
+      </bo>
+      <bendpoints>
+        <point x="1084.8958740234375" y="180.0"/>
+        <point x="1084.8958740234375" y="210.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="bd87cd0e-6949-4cdc-b30f-71644a0eed0c" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>numer_in</seg>
+      </bo>
+      <position y="64.66666666666667"/>
+    </element>
+    <element uuid="ec56aac3-f2f2-415e-a1d8-766b546fc05a" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>ruch_spirala_out</seg>
+      </bo>
+      <position x="1620.3385391235352" y="178.0"/>
+    </element>
+    <element uuid="a02f9923-2da4-4542-bbd9-f024cb7f1653" manual="true" dockArea="left">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>wartosc_monet_in</seg>
+      </bo>
+      <position y="131.33333333333334"/>
+    </element>
+    <element uuid="172cb853-4afe-4635-a7d3-5f81088ab3d8" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>wydaj_monety_out</seg>
+      </bo>
+      <position x="1607.7408905029297" y="48.0"/>
+    </element>
+    <element uuid="996b0c5e-8d7b-42f2-8737-516046116991" manual="true" dockArea="right">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>feature_instance</seg>
+        <seg>wyswietl_out</seg>
+      </bo>
+      <position x="1643.3333435058594" y="128.0"/>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/automat_v1/instances/automat_v1_controller_impl_instance.aaxl2</seg>
+    </bo>
+    <position/>
+    <size width="1730.9192810058594" height="230.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/automat_v1/instances/automat_v1_controller_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>

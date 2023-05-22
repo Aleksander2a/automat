@@ -1,0 +1,5 @@
+Check connection binding consistency Report
+
+Warning! thread_zaplac.panel_out -> thread_wyswietl.wyswietl_in: Connection source and/or destination is not bound to hardware
+Warning! thread_zaplac.wartosc_reszty_out -> thread_wydaj.wartosc_reszty_in: Connection source and/or destination is not bound to hardware
+Warning! thread_przyciski.numer_out -> thread_zaplac.numerek_in: Connection source and/or destination is not bound to hardware
