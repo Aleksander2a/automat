@@ -30,6 +30,8 @@ System składa się z **19 komponentów**:
  - Proces second_controller:![second_controller](https://github.com/Aleksander2a/automat/blob/main/second_controller.jpg)
 ### 5. Proponowane metody analizy modelu, dostępne w Osate:
  - Analiza systemu:
+   - ConnectionConsistency: 0 warning'ów, 0 błędów
+   - ConnectionBindingConsistency: 0 warning'ów, 0 błędów
    - BusLoad: 13 warning'ów, 0 błędów:
      - bus has no bandwidth budget
      - bus has no capacity
@@ -39,5 +41,3 @@ System składa się z **19 komponentów**:
        - process_controller.wyswietl_out → device_wyswietlacz.wyswietl_in
        - process_controller.ruch_spirala_out → device_silownik_spirali.ruch_spirala_in
        - process_controller.wydaj_monety_out → device_podajnik_monet.wydaj_monety_in
-   - ConnectionConsistency: 0 warning'ów, 0 błędów
-   - ConnectionBindingConsistency: 0 warning'ów, 0 błędów
