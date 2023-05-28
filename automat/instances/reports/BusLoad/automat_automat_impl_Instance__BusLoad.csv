@@ -1,0 +1,57 @@
+Bus load analysis of automat_impl_Instance
+
+
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"bus_bus_connection","0.0","0.0","0.0","0.0"
+
+"Bus bus_bus_connection has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"device_panel.numer_out -> process_controller.numer_in","","0.0","","0.0"
+"device_oswietlenie.jasnosc_aktualna_out -> process_second_controller.thread_swiatlo.jasnosc_aktualna_in","","0.0","","0.0"
+"device_oswietlenie.jasnosc_zadana_out -> process_second_controller.thread_swiatlo.jasnosc_zadana_in","","0.0","","0.0"
+"device_licznik_monet.wartosc_monet_out -> process_controller.wartosc_monet_in","","0.0","","0.0"
+"device_chlodziarka.temperatura_aktualna_out -> process_second_controller.thread_chlodzenie.temperatura_aktualna_in","","0.0","","0.0"
+"device_chlodziarka.temperatura_zadana_out -> process_second_controller.thread_chlodzenie.temperatura_zadana_in","","0.0","","0.0"
+"process_controller.wyswietl_out -> device_wyswietlacz.wyswietl_in","","0.0","","0.0"
+"process_controller.ruch_spirala_out -> device_silownik_spirali.ruch_spirala_in","","0.0","","0.0"
+"process_controller.wydaj_monety_out -> device_podajnik_monet.wydaj_monety_in","","0.0","","0.0"
+"process_second_controller.thread_chlodzenie.chlodz_out -> device_chlodziarka.chlodzenie_in","","0.0","","0.0"
+"process_second_controller.thread_swiatlo.swiec_out -> device_oswietlenie.swiatlo_in","","0.0","","0.0"
+
+"WARNING: Bus bus_bus_connection has no capacity"
+"WARNING: Bus bus_bus_connection has no bandwidth budget"
+
+"Connection device_panel.numer_out -> process_controller.numer_in bound to bus_bus_connection"
+"WARNING: Connection device_panel.numer_out -> process_controller.numer_in has no bandwidth budget"
+
+"Connection device_oswietlenie.jasnosc_aktualna_out -> process_second_controller.thread_swiatlo.jasnosc_aktualna_in bound to bus_bus_connection"
+"WARNING: Connection device_oswietlenie.jasnosc_aktualna_out -> process_second_controller.thread_swiatlo.jasnosc_aktualna_in has no bandwidth budget"
+
+"Connection device_oswietlenie.jasnosc_zadana_out -> process_second_controller.thread_swiatlo.jasnosc_zadana_in bound to bus_bus_connection"
+"WARNING: Connection device_oswietlenie.jasnosc_zadana_out -> process_second_controller.thread_swiatlo.jasnosc_zadana_in has no bandwidth budget"
+
+"Connection device_licznik_monet.wartosc_monet_out -> process_controller.wartosc_monet_in bound to bus_bus_connection"
+"WARNING: Connection device_licznik_monet.wartosc_monet_out -> process_controller.wartosc_monet_in has no bandwidth budget"
+
+"Connection device_chlodziarka.temperatura_aktualna_out -> process_second_controller.thread_chlodzenie.temperatura_aktualna_in bound to bus_bus_connection"
+"WARNING: Connection device_chlodziarka.temperatura_aktualna_out -> process_second_controller.thread_chlodzenie.temperatura_aktualna_in has no bandwidth budget"
+
+"Connection device_chlodziarka.temperatura_zadana_out -> process_second_controller.thread_chlodzenie.temperatura_zadana_in bound to bus_bus_connection"
+"WARNING: Connection device_chlodziarka.temperatura_zadana_out -> process_second_controller.thread_chlodzenie.temperatura_zadana_in has no bandwidth budget"
+
+"Connection process_controller.wyswietl_out -> device_wyswietlacz.wyswietl_in bound to bus_bus_connection"
+"WARNING: Connection process_controller.wyswietl_out -> device_wyswietlacz.wyswietl_in has no bandwidth budget"
+
+"Connection process_controller.ruch_spirala_out -> device_silownik_spirali.ruch_spirala_in bound to bus_bus_connection"
+"WARNING: Connection process_controller.ruch_spirala_out -> device_silownik_spirali.ruch_spirala_in has no bandwidth budget"
+
+"Connection process_controller.wydaj_monety_out -> device_podajnik_monet.wydaj_monety_in bound to bus_bus_connection"
+"WARNING: Connection process_controller.wydaj_monety_out -> device_podajnik_monet.wydaj_monety_in has no bandwidth budget"
+
+"Connection process_second_controller.thread_chlodzenie.chlodz_out -> device_chlodziarka.chlodzenie_in bound to bus_bus_connection"
+"WARNING: Connection process_second_controller.thread_chlodzenie.chlodz_out -> device_chlodziarka.chlodzenie_in has no bandwidth budget"
+
+"Connection process_second_controller.thread_swiatlo.swiec_out -> device_oswietlenie.swiatlo_in bound to bus_bus_connection"
+"WARNING: Connection process_second_controller.thread_swiatlo.swiec_out -> device_oswietlenie.swiatlo_in has no bandwidth budget"
+
+

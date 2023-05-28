@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" name="silownik_spirali_impl_Instance" category="device">
+  <featureInstance name="ruch_spirala_in" category="eventPort">
+    <feature xsi:type="aadl2:EventPort" href="../automat.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedEventPort.0"/>
+  </featureInstance>
+  <featureInstance name="bus_access" category="busAccess">
+    <feature xsi:type="aadl2:BusAccess" href="../automat.aadl#/0/@ownedPublicSection/@ownedClassifier.2/@ownedBusAccess.0"/>
+  </featureInstance>
+  <systemOperationMode name="No Modes"/>
+  <componentImplementation xsi:type="aadl2:DeviceImplementation" href="../automat.aadl#automat.silownik_spirali.impl"/>
+</instance:SystemInstance>
