@@ -1,5 +1,6 @@
 # Automat do przekąsek
 ### 1. Aleksander Mazur, olekmazur@student.agh.edu.pl, https://github.com/Aleksander2a/automat
+[Kod źródłowy](https://github.com/Aleksander2a/automat/blob/main/automat/automat.aadl)
 ### 2. Opis modelowanego systemu:
 Urządzenie, które służy do sprzedaży różnego rodzaju przekąsek, takich jak batony, chipsy, napoje i inne podobne produkty. Urządzenie przyjmuje płatność (i zwraca resztę w miarę potrzeby), użytkownik wpisuje numer wybranego produktu, automat zwraca produkt.
 ### 3. Spis komponentów:
