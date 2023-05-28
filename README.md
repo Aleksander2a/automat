@@ -3,7 +3,7 @@
 ### 2. Opis modelowanego systemu:
 Urządzenie, które służy do sprzedaży różnego rodzaju przekąsek, takich jak batony, chipsy, napoje i inne podobne produkty. Urządzenie przyjmuje płatność (i zwraca resztę w miarę potrzeby), użytkownik wpisuje numer wybranego produktu, automat zwraca produkt.
 ### 3. Spis komponentów:
-System składa się z 19 komponentów:
+System składa się z **19 komponentów**:
  - 2 process (controller i second_controller) - pełnią rolę kontrolerów systemu. Odpowiadają za zarządzanie i koordynację pracy innych komponentów
  - magistrala (bus_connection) - reprezentuje połączenie komunikacyjne pomiędzy różnymi komponentami systemu
  - pamięć (ram) - odnosi się do fizycznej pamięci operacyjnej (RAM), która przechowuje dane i instrukcje potrzebne do działania systemu. Pamięć RAM zapewnia dostęp do danych w czasie rzeczywistym
