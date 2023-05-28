@@ -24,9 +24,9 @@ System składa się z 19 komponentów:
    - chlodzenie - odpowiedzialny za sterowanie chłodzeniem w automacie w oparciu o aktualną i zadaną temperaturę
    - swiatlo - odpowiedzialny za sterowanie oświetleniem w automacie w oparciu o aktualną i zadaną jasność
 ### 4. Model - rysunek:
- - System:
- - Proces controller:
- - Proces second_controller:
+ - System:![automat](https://github.com/Aleksander2a/automat/blob/main/automat.jpg)
+ - Proces controller:![controller](https://github.com/Aleksander2a/automat/blob/main/controller.jpg)
+ - Proces second_controller:![second_controller](https://github.com/Aleksander2a/automat/blob/main/second_controller.jpg)
 ### 5. Proponowane metody analizy modelu, dostępne w Osate:
  - Analiza systemu:
    - BusLoad: 13 warning'ów, 0 błędów:
