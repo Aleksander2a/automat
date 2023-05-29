@@ -236,6 +236,13 @@
     </element>
     <element uuid="12f5cc11-b744-4b4a-97c8-2f44464cbbef" manual="true">
       <element uuid="433d2567-850e-4464-8d7a-1b87e4094739" manual="true" dockArea="left">
+        <element uuid="c903766c-ffb6-4612-bbdb-7e086d08fbdb" manual="true">
+          <bo>
+            <seg>pvg</seg>
+            <seg>Deployment_Properties::Actual_Memory_Binding</seg>
+            <seg>bebf1e16-58a9-4805-b14e-75424a7ec15f</seg>
+          </bo>
+        </element>
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
           <seg>feature_instance</seg>
@@ -252,6 +259,13 @@
         <position x="296.71485137939453" y="110.0"/>
       </element>
       <element uuid="233cfba0-7f11-45e8-b3e0-074803dff960" manual="true" dockArea="left">
+        <element uuid="67939653-98d3-4793-b9b8-469837f4177e" manual="true">
+          <bo>
+            <seg>pvg</seg>
+            <seg>Deployment_Properties::Actual_Memory_Binding</seg>
+            <seg>bebf1e16-58a9-4805-b14e-75424a7ec15f</seg>
+          </bo>
+        </element>
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
           <seg>feature_instance</seg>
@@ -268,12 +282,33 @@
         <position x="284.11720275878906" y="60.0"/>
       </element>
       <element uuid="09cc3391-11d3-4f63-8ec5-b61b150b0640" manual="true" dockArea="right">
+        <element uuid="80b19157-533b-49a1-b119-efed253f7841" manual="true">
+          <bo>
+            <seg>pvg</seg>
+            <seg>Deployment_Properties::Actual_Memory_Binding</seg>
+            <seg>bebf1e16-58a9-4805-b14e-75424a7ec15f</seg>
+          </bo>
+        </element>
         <bo>
           <seg>org.osate.ge.diagrams.instance</seg>
           <seg>feature_instance</seg>
           <seg>wyswietl_out</seg>
         </bo>
         <position x="319.70965576171875" y="10.0"/>
+      </element>
+      <element uuid="4a6e43ba-6760-4c2f-8d57-fb2c3d98c124" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Memory_Binding</seg>
+          <seg>bebf1e16-58a9-4805-b14e-75424a7ec15f</seg>
+        </bo>
+      </element>
+      <element uuid="f1c9744e-454b-4fc7-bf51-19366b21a31f" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Processor_Binding</seg>
+          <seg>11c4edb2-0869-47d3-b055-c1680d8f2075</seg>
+        </bo>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
@@ -332,6 +367,13 @@
         </bo>
         <position y="210.0"/>
       </element>
+      <element uuid="37157b17-b68f-4b2f-976e-4fc1f907d3f0" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Processor_Binding</seg>
+          <seg>0f686d22-37ae-4fee-bd11-c1d78d08153f</seg>
+        </bo>
+      </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
@@ -365,6 +407,13 @@
           <seg>bus_access</seg>
         </bo>
         <position y="10.0"/>
+      </element>
+      <element uuid="689b1c92-429e-46d0-be26-b556c9efe66a" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Memory_Binding</seg>
+          <seg>bebf1e16-58a9-4805-b14e-75424a7ec15f</seg>
+        </bo>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
@@ -524,6 +573,13 @@
       </bendpoints>
     </element>
     <element uuid="86febac4-3c3d-413d-a4af-5e245cecad6c" manual="true">
+      <element uuid="93d73b54-345c-42ed-9cc2-6e3e3e392eec" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>72c39ba3-1e78-43ac-b100-7aa92354f544</seg>
+        </bo>
+      </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>connection_reference</seg>
@@ -535,6 +591,13 @@
       </bendpoints>
     </element>
     <element uuid="65a1db85-0b25-447e-9bdd-d78afe71862d" manual="true">
+      <element uuid="7ce39cc3-f1a3-47a0-8cbd-a0047f22094b" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>72c39ba3-1e78-43ac-b100-7aa92354f544</seg>
+        </bo>
+      </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>connection_reference</seg>
@@ -542,6 +605,13 @@
       </bo>
     </element>
     <element uuid="1897e99b-bd70-45a0-9c2c-e4567eb786c1" manual="true">
+      <element uuid="c31c3376-5a72-4e1d-b4b4-984fd0201f7d" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>72c39ba3-1e78-43ac-b100-7aa92354f544</seg>
+        </bo>
+      </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>connection_reference</seg>
@@ -553,6 +623,13 @@
       </bendpoints>
     </element>
     <element uuid="fae9421b-193d-49d1-b7f3-aafb58d8c935" manual="true">
+      <element uuid="4b6d4bf0-a6f3-4548-b3d4-1a600ce256b2" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>72c39ba3-1e78-43ac-b100-7aa92354f544</seg>
+        </bo>
+      </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>connection_reference</seg>
@@ -589,6 +666,13 @@
       </bo>
     </element>
     <element uuid="2dbd4200-f88f-4e9c-b8bc-41dbef8806c3" manual="true">
+      <element uuid="753fdc5f-5c25-472a-9683-67040227d702" manual="true">
+        <bo>
+          <seg>pvg</seg>
+          <seg>Deployment_Properties::Actual_Connection_Binding</seg>
+          <seg>72c39ba3-1e78-43ac-b100-7aa92354f544</seg>
+        </bo>
+      </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>connection_reference</seg>
@@ -604,7 +688,11 @@
     <size width="1816.7342529296875" height="848.6666666666666"/>
   </element>
   <config type="structure" connectionPrimaryLabelsVisible="false">
-    <enabledAadlProperties/>
+    <enabledAadlProperties>
+      <property>deployment_properties::actual_memory_binding</property>
+      <property>deployment_properties::actual_processor_binding</property>
+      <property>deployment_properties::actual_connection_binding</property>
+    </enabledAadlProperties>
     <context>
       <seg>org.osate.ge.diagrams.instance</seg>
       <seg>system_instance</seg>
