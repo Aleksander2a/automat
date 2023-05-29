@@ -2,7 +2,7 @@ Bus load analysis of automat_impl_Instance
 
 
 "Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
-"bus_bus_connection","0.0","0.0","0.0","0.0"
+"bus_bus_connection","2000.0","200.0","0.0","0.0"
 
 "Bus bus_bus_connection has data overhead of 0 bytes"
 "Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
@@ -17,9 +17,6 @@ Bus load analysis of automat_impl_Instance
 "process_controller.wydaj_monety_out -> device_podajnik_monet.wydaj_monety_in","","0.0","","0.0"
 "process_second_controller.thread_chlodzenie.chlodz_out -> device_chlodziarka.chlodzenie_in","","0.0","","0.0"
 "process_second_controller.thread_swiatlo.swiec_out -> device_oswietlenie.swiatlo_in","","0.0","","0.0"
-
-"WARNING: Bus bus_bus_connection has no capacity"
-"WARNING: Bus bus_bus_connection has no bandwidth budget"
 
 "Connection device_panel.numer_out -> process_controller.numer_in bound to bus_bus_connection"
 "WARNING: Connection device_panel.numer_out -> process_controller.numer_in has no bandwidth budget"

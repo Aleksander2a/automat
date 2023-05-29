@@ -1,6 +1,7 @@
 package automat
 public
 	with base_types;
+	with sei;
 	
 	-------------------------------------------------
 	-------------------- Devices --------------------
@@ -159,6 +160,9 @@ public
 	end bus_connection;
 
 	bus implementation bus_connection.impl
+		properties
+  			SEI::BandWidthCapacity => 2.0 MBytesps;
+  			SEI::BandWidthBudget => 200.0 KBytesps;
 	end bus_connection.impl;
 	
 	------------------------------------------------
