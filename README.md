@@ -32,12 +32,11 @@ System składa się z **19 komponentów**:
  - Analiza systemu:
    - ConnectionConsistency: 0 warning'ów, 0 błędów
    - ConnectionBindingConsistency: 0 warning'ów, 0 błędów
-   - BusLoad: 13 warning'ów, 0 błędów:
-     - bus has no bandwidth budget
-     - bus has no capacity
-     - 11xconnection has no bandwidth budget:
+   - BusLoad: 11 warning'ów, 0 błędów:
+     - connection has no bandwidth budget:
        - device_panel.numer_out → process_controller.numer_in
        - device_licznik_monet.wartosc_monet_out → process_controller.wartosc_monet_in
        - process_controller.wyswietl_out → device_wyswietlacz.wyswietl_in
        - process_controller.ruch_spirala_out → device_silownik_spirali.ruch_spirala_in
        - process_controller.wydaj_monety_out → device_podajnik_monet.wydaj_monety_in
+       - ...
